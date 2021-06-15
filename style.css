@@ -1,0 +1,10 @@
+*{
+    background-color: #F9FBF2;
+    color: #0A0F0D;
+}
+header li{
+    list-style-type: none;
+}
+header a{
+    text-decoration: none;
+}
