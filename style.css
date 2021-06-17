@@ -1,10 +1,26 @@
 *{
     background-color: #F9FBF2;
     color: #0A0F0D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header li{
     list-style-type: none;
 }
 header a{
     text-decoration: none;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+header h1{
+    text-align: center;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    background-color: #648DE5;
 }
