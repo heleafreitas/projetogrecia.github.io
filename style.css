@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: #F9FBF2;
+    color: #0A0F0D;
+}
+header{
+    margin: 0px;
+    padding: 5px;
+    background-color: #648DE5;
+    color: #F9FBF2;
+}
+h1{
+    font: normal normal 3em 'Satisfy', Georgia, 'Times New Roman', Times, serif;
+}
+header li{
+    list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    color: #F9FBF2;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+header h1{
+    text-align: center;
+    text-decoration: underline #2f394d;
+}
+header li a:hover{
+    color: #2f394d;
+}
