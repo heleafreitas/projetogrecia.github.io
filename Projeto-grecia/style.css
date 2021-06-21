@@ -8,10 +8,10 @@ body{
     color: #0A0F0D;
 }
 header{
-    margin: 0px;
     padding: 5px;
     background-color: #648DE5;
     color: #F9FBF2;
+    text-align: center;
 }
 h1{
     font: normal normal 3em 'Satisfy', Georgia, 'Times New Roman', Times, serif;
@@ -27,19 +27,16 @@ header ul{
     display: flex;
     justify-content: space-evenly;
 }
-header h1{
-    text-align: center;
-    text-decoration: underline #2f394d;
-}
 header li a:hover{
     color: #2f394d;
 }
 p{
-    text-align: justify;
+    text-align: left;
     padding: 15px;
+    text-indent: 10px;
 }
 main h1{
-    text-decoration: underline #648DE5;
+    text-decoration: underline #e63946;
     margin-left: 50px;
 }
 div.esquerda{
@@ -47,12 +44,17 @@ div.esquerda{
     grid-template-columns: 1fr 1fr;
 }
 .esquerda img{
-    grid-column: 2/3;
-    width: 80%;
-    justify-self: flex-end;
+    grid-column: 1/3;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .esquerda p{
     grid-column: 1/3;
     margin-top: 0px;
     padding-top: 0px;
+}
+#logo{
+    width: 10%;
+    border-radius: 50%;
 }
